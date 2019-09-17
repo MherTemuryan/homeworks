@@ -1,0 +1,74 @@
+body {
+	margin : 0px;
+	padding : 0px;
+	height : 100%;
+	font-family: 'Chilanka', cursive;
+	background-color : black;
+}
+
+#wrapper {
+	margin : 0 auto;
+	padding-top : 50px;
+	padding-bottom : 50px;
+	width : 500px;
+	text-align : center;
+}
+
+h1 {
+	color : magenta;
+}
+
+h1 span {
+	color : white;
+}
+
+#ToDo_input {
+	font-family: 'Chilanka', cursive;
+	font-size : 24px;
+	margin: 0 0 5px 2px;
+	width: 85%;
+	height : 35px;
+	text-align : center;
+	border : 2px solid cyan;
+	border-radius : 20px;
+	outline : none;
+	color : black;
+}
+
+#add {
+	width : 12.3%;
+	height : 40px;
+	border : 2px solid cyan;
+	border-radius : 25px;
+	color : magenta;
+	outline : none;
+	cursor : pointer;
+	
+}
+
+.task {
+	width: 85%;
+	margin-left: 2px;
+	margin-top : 5px;
+	padding-top : 8px;
+	font-size : 24px;
+	height : 30px;
+	border : 2px solid lime;
+	border-radius : 20px;
+	float :left;
+	color : white;
+	
+}
+
+.del {
+	width : 12.3%;
+	height : 40px;
+	margin-top : 7px;
+	border : 2px solid lime;
+	border-radius : 20px;
+	color : red;
+	outline : none;
+	cursor : pointer;
+}
+
+
